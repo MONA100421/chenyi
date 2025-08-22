@@ -1236,15 +1236,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   .sidebar.active {
     max-height: 500px; /* 300->450->500展開後的高度 */
   }
-  
-  .weather-news-container {
-    flex-direction: column; /* 在小螢幕上，兩個區塊將堆疊顯示 */
-  }
-
-  .weather-box, .news-box {
-    padding: 20px;
-    border-radius: 10px;
-  }
 }
 
 
