@@ -4,14 +4,11 @@
 💡 Building scalable software systems, machine learning pipelines, and data-driven products  
 🌎 Los Angeles, CA | OPT/STEM Eligible (Dec 2025 – Dec 2028)  
 
----
-
 ## 🔑 About Me
 I am a software and data engineer with experience in **full-stack development**, **machine learning**, and **scalable data systems**.  
 My projects range from **deep learning pipelines** (CNNs for image/audio) to **Spark-based ETL systems** and **interactive dashboards** that support real-world decision-making.  
 I am passionate about designing **high-performance backend systems** and applying **ML/AI** to solve impactful problems.  
 
----
 
 ## 🛠 Technical Skills
 - **Languages & Frameworks**: Python (Flask, FastAPI, TensorFlow, scikit-learn, Pandas, NumPy),  
@@ -22,8 +19,6 @@ I am passionate about designing **high-performance backend systems** and applyin
   - Data Engineering & Analytics  
   - Machine Learning & Deep Learning  
   - Scalable Systems & Cloud Computing  
-
----
 
 ## 📂 Highlight Projects
 - **[ML Pipeline: Audio Classification](https://github.com/MONA100421/DSCI552_Final_Project)**  
@@ -41,14 +36,10 @@ I am passionate about designing **high-performance backend systems** and applyin
 - **[Personal Portfolio Website](https://mona100421.github.io/chenyi/)**  
   A responsive portfolio site showcasing my projects and experience.  
 
----
-
 ## 📫 Connect with Me
 - 🌐 Portfolio: [mona100421.github.io/chenyi/](https://mona100421.github.io/chenyi/)  
 - 💼 LinkedIn: [linkedin.com/in/wengchen](https://www.linkedin.com/in/wengchen/)  
 - 📧 Email: wengchen@usc.edu  
-
----
 
 ⭐️ *Open to Full-time roles starting 2026 in **Software Engineering (Backend/Full-stack/Platform)**,  
 **Data Engineering/Analytics Engineering**, or **ML/AI Engineering**.*  
