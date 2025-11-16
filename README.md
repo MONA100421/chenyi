@@ -2,7 +2,7 @@
 
 🎓 M.S. Spatial Data Science @ University of Southern California (Dec 2025)  
 Building scalable software systems, machine learning pipelines, and data-driven products  
-Los Angeles, CA | OPT/STEM Eligible (Dec 2025 – Dec 2028)  
+Los Angeles, CA | OPT/STEM Eligible (Feb 2026 – Feb 2029)  
 
 ## About Me
 I am a software and data engineer with experience in **full-stack development**, **machine learning**, and **scalable data systems**.  
