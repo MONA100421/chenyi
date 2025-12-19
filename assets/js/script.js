@@ -132,3 +132,19 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+// ===== 瀏覽次數計數器（前端本地）=====
+const viewCountEl = document.getElementById("view-count");
+
+if (viewCountEl) {
+  let views = localStorage.getItem("page_views");
+
+  if (!views) {
+    views = 0;
+  }
+
+  views = parseInt(views) + 1;
+  localStorage.setItem("page_views", views);
+
+  viewCountEl.textContent = views;
+}
