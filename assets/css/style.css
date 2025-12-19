@@ -1908,6 +1908,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 /* ===== Page View Counter UI ===== */
 .page-view-badge {
+  min-height: 32px;
   margin-top: 20px;
   padding: 8px 14px;
   display: inline-flex;
