@@ -198,7 +198,7 @@
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link data-target="coursework">Coursework</button>
+            <button class="navbar-link" data-nav-link data-target="project">Project</button>
           </li>
 
           <li class="navbar-item">
@@ -570,10 +570,10 @@
         - #Coursework Projects
       -->
 
-      <article class="coursework" data-page="coursework">
+      <article class="project" data-page="project">
 
         <header>
-          <h2 class="h2 article-title">Coursework</h2>
+          <h2 class="h2 article-title">project</h2>
         </header>
 
         <section class="projects">
@@ -584,6 +584,10 @@
               <button class="active" data-filter-btn>All</button>
             </li>
 
+            <li class="filter-item">
+              <button data-filter-btn>mern-fullstack</button>
+            </li>
+            
             <li class="filter-item">
               <button data-filter-btn>DSCI552</button>
             </li>
@@ -626,6 +630,10 @@
               </li>
 
               <li class="select-item">
+                <button data-select-item>mern-fullstack</button>
+              </li>
+              
+              <li class="select-item">
                 <button data-select-item>DSCI552</button>
               </li>
 
@@ -650,6 +658,25 @@
           </div>
 
           <ul class="project-list">
+
+            <li class="project-item active" data-filter-item data-category="mern-fullstack">
+              <a href="https://github.com/MONA100421/ShopFlow" target="_blank" rel="noopener">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://opengraph.githubassets.com/1/MONA100421/ShopFlow" alt="ShopFlow MERN E-commerce Platform"
+                    loading="lazy">
+                </figure>
+
+                <h3 class="project-title">ShopFlow – MERN E-Commerce Platform</h3>
+
+                <p class="project-category">mern-fullstack</p>
+
+              </a>
+            </li>
 
             <li class="project-item  active" data-filter-item data-category="dsci552">
               <a href="https://github.com/MONA100421/DSCI552_Waste-Image-Classification-with-Transfer-Learning" target="_blank" rel="noopener">
@@ -890,6 +917,7 @@
         </section>
 
       </article>
+
 
 
 
