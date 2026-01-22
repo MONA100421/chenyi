@@ -41,7 +41,7 @@ particularly within MERN-based product environments.
 
 ## Highlight Projects
 
-### MERN Full-Stack E-commerce Platform (In Progress)
+### MERN Full-Stack E-commerce Platform
 **React, TypeScript, Node.js, Express, MongoDB, JWT**
 
 - Built a production-style MERN e-commerce application supporting real-world user and admin workflows
@@ -49,8 +49,7 @@ particularly within MERN-based product environments.
 - Designed RESTful APIs using layered backend architecture for products, carts, and orders
 - Developed scalable React frontend with Redux Toolkit, custom hooks, pagination, search, and cart synchronization
 - Focused on maintainability, security, and real-world system design rather than demo-level CRUD
-
-> This project represents my primary focus as a full-stack engineer and reflects how I approach real product development.
+🔗 https://github.com/MONA100421/ShopFlow
 
 ### Machine Learning Pipeline: Audio Classification
 - Built an end-to-end deep learning pipeline (feature extraction → CNN training → evaluation)
@@ -73,7 +72,7 @@ particularly within MERN-based product environments.
 
 ## Connect with Me
 - LinkedIn: https://www.linkedin.com/in/wengchen/
-- Email: wengchen@usc.edu
+- Email: wengchen@usc.edu/ she050623@gmail.com
 
 ⭐️ Open to **Full-Time Software Engineer / MERN Full-Stack Developer roles** 
 Interested in building scalable web applications, backend systems, and user-facing products.
