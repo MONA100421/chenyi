@@ -148,3 +148,12 @@ if (viewCountEl) {
 
   viewCountEl.textContent = views;
 }
+
+// ===== Avatar Flip (Mobile Friendly) =====
+const avatar = document.querySelector(".flip-avatar");
+
+if (avatar) {
+  avatar.addEventListener("click", () => {
+    avatar.classList.toggle("is-flipped");
+  });
+}

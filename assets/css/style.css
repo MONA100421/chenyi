@@ -1939,3 +1939,84 @@ textarea.form-input::-webkit-resizer { display: none; }
   color: var(--white-2);
   font-weight: var(--fw-500);
 }
+
+/* ===============================
+   Avatar Flip Effect
+================================ */
+
+/* 外層使用你原本 avatar-box，不破壞樣式 */
+.flip-avatar {
+  perspective: 1000px;
+  cursor: pointer;
+}
+
+/* 內層翻面容器 */
+.flip-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s ease;
+  transform-style: preserve-3d;
+}
+
+/* hover 翻面（桌機） */
+@media (hover: hover) {
+  .flip-avatar:hover .flip-inner {
+    transform: rotateY(180deg);
+  }
+}
+
+/* 正反面共用 */
+.flip-front,
+.flip-back {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  border-radius: inherit;
+  /* 沿用 avatar-box 的圓角 */
+  overflow: hidden;
+}
+
+/* 圖片填滿 */
+.flip-front img,
+.flip-back img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* 反面 */
+.flip-back {
+  transform: rotateY(180deg);
+}
+
+/* 點擊翻面（手機 / JS 版） */
+.flip-avatar.is-flipped .flip-inner {
+  transform: rotateY(180deg);
+}
+
+/* ===== Fix Avatar Flip Layout ===== */
+.avatar-box {
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+.flip-inner {
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-width: 580px) {
+  .avatar-box {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media (min-width: 1250px) {
+  .avatar-box {
+    width: 150px;
+    height: 150px;
+  }
+}
