@@ -1995,6 +1995,12 @@ textarea.form-input::-webkit-resizer { display: none; }
   transform: rotateY(180deg);
 }
 
+/* Emphasis for About section */
+.about-text strong {
+  font-weight: var(--fw-600);
+  color: var(--white-2);
+}
+
 /* ===== Fix Avatar Flip Layout ===== */
 .avatar-box {
   position: relative;
