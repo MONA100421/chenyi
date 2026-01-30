@@ -48,7 +48,7 @@ particularly within MERN-based product environments.
 - Implemented JWT-based authentication and role-based access control with protected routes
 - Designed RESTful APIs using layered backend architecture for products, carts, and orders
 - Developed scalable React frontend with Redux Toolkit, custom hooks, pagination, search, and cart synchronization
-- Focused on maintainability, security, and real-world system design rather than demo-level CRUD
+- Focused on maintainability, security, and real-world system design rather than demo-level CRUD  
 🔗 https://github.com/MONA100421/ShopFlow
 
 ### Machine Learning Pipeline: Audio Classification
