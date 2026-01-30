@@ -2013,6 +2013,11 @@ textarea.form-input::-webkit-resizer { display: none; }
   height: 100%;
 }
 
+.resume-btn-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 @media (min-width: 580px) {
   .avatar-box {
     width: 120px;
@@ -2024,5 +2029,30 @@ textarea.form-input::-webkit-resizer { display: none; }
   .avatar-box {
     width: 150px;
     height: 150px;
+  }
+}
+
+/* Mobile: tighten sidebar spacing */
+@media (max-width: 768px) {
+  .sidebar-info {
+    align-items: flex-start;
+  }
+
+  .sidebar-info>div[style*="justify-content:center"] {
+    margin-top: 8px;
+  }
+
+  .sidebar {
+    max-height: fit-content;
+  }
+
+    .resume-btn-wrapper {
+    margin-top: 8px;
+  }
+}
+
+@media (max-width: 768px) {
+  .resume-btn-wrapper {
+    margin-top: 8px;
   }
 }
