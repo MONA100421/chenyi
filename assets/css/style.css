@@ -2353,10 +2353,6 @@ textarea.form-input::-webkit-resizer {
     /* 讓頭像跟文字垂直居中 */
   }
 
-  .sidebar {
-    /* 這裡不需要指定 max-height，讓上面的 .sidebar 與 .sidebar.active 控制即可 */
-  }
-
   .resume-btn-wrapper {
     margin-top: 8px;
   }
